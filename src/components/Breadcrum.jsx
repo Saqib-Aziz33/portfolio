@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Breadcrum({current}) {
-    return <div className="text-sm breadcrumbs  animate__animated animate__rollIn px-2">
+    return <div className="text-sm breadcrumbs animate__animated animate__rollIn px-2">
         <ul>
             <li>
-                <Link to='/'>Home</Link>
+                <Link className="underline" to='/'>Home</Link>
             </li>
             <li>
                 {current}

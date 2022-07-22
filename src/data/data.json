@@ -36,9 +36,16 @@
         },
         {
             "title": "Yelp Camp",
-            "desc": "Full stack node.js project with express.js framework and mongodb database, user authentication, authorization and CRUD operations, Basic security password hashing etc.",
+            "desc": "Full stack node.js project with express.js framework and mongodb database, user authentication, authorization, data relationship and CRUD operations, Basic security password hashing etc.",
             "link": "https://cryptic-refuge-94594.herokuapp.com/",
             "img": "/static/yelpcamp.png",
+            "lang": ["html", "css", "js", "node", "express", "mongodb"]
+        },
+        {
+            "title": "Billing application",
+            "desc": "Full stack node.js project with express.js and mongodb database, having two roles admin and employee. Admin can manage products and create employees while employee can only create a bill, Application also includes password hashing, user authentication and authorization and basic security.",
+            "link": "https://saqib-billing-app.herokuapp.com/",
+            "img": "/static/billing.png",
             "lang": ["html", "css", "js", "node", "express", "mongodb"]
         },
         {

@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useRef} from 'react';
 import Input from '../components/Input';
 import Button from '../components/Button';
 import contactImage from '../assets/contact.svg'
@@ -10,12 +10,13 @@ import Alert from '../components/Alert';
 
 function Contact() {
   const [showAlert, setShowAlert] = useState(false)
+  const form = useRef(null)
 
   const sendEmail = (e) => {
     e.preventDefault();
     setShowAlert(true)
     // email logic
-    emailjs.sendForm('service_3b9evib', 'template_46fq0hq', e.target, 'user_6uE1OybS2h1VCkJVQAE9z')
+    emailjs.sendForm('service_3b9evib', 'template_46fq0hq', form.current, 'user_6uE1OybS2h1VCkJVQAE9z')
       .then((result) => {
         console.log(result.text);
         e.target.reset();
@@ -35,11 +36,11 @@ function Contact() {
           <img src={contactImage} alt="contact svg" className='max-w-sm h-auto block m-auto ' />
         </div>
 
-        <form onSubmit={sendEmail} className='animate__animated animate__backInUp p-2'>
-          <Input type={'text'} placeholder={'Name'} text={"Name"} />
-          <Input type={'email'} placeholder={'Email'} text={"Email"} />
-          <Input textarea={true} placeholder={'Message...'} text={"Message"} />
-          <Button type={'submit'}>Submit</Button>
+        <form ref={form} onSubmit={sendEmail} className='animate__animated animate__backInUp p-2'>
+          <Input type='text' placeholder='Name' text="Name" />
+          <Input type='email' placeholder='Email' text="Email" />
+          <Input textarea={true} placeholder='Message...' text="Message" />
+          <Button type='submit'>Submit</Button>
         </form>
       </div>
 

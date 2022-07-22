@@ -1,0 +1,59 @@
+{
+    "social": [
+        {
+            "site": "LinkedIn",
+            "link": "https://www.linkedin.com/in/saqib-aziz41"
+        },
+        {
+            "site": "Github",
+            "link": "https://github.com/Saqib-Aziz33"
+        },
+        {
+            "site": "Whatsapp",
+            "link": "https://wa.me/+923459084214"
+        },
+        {
+            "site": "Mail",
+            "link": "mailto:saqib.aziz41@gmail.com"
+        }
+    ],
+    
+
+    "projects": [
+        {
+            "title": "Mi Store Clone",
+            "desc": "Mi Store Clone with React.js, React bootstrap and custom css",
+            "link": "https://focused-goldberg-0e3b83.netlify.app/",
+            "img": "/static/miclone.png",
+            "lang": ["react"]
+        },
+        {
+            "title": "Github Finder",
+            "desc": "Github finder project consuming github REST API, Search github users and visit their profile and repositories",
+            "link": "https://github-finder-five-phi.vercel.app/",
+            "img": "/static/githubfinder.png",
+            "lang": ["react"]
+        },
+        {
+            "title": "Yelp Camp",
+            "desc": "Full stack node.js project with express.js framework and mongodb database, user authentication, authorization and CRUD operations, Basic security password hashing etc.",
+            "link": "https://cryptic-refuge-94594.herokuapp.com/",
+            "img": "/static/yelpcamp.png",
+            "lang": ["html", "css", "js", "node", "express", "mongodb"]
+        },
+        {
+            "title": "Starbucks Clone",
+            "desc": "Starbucks Coffee shop homepage clone with html, css and javascript",
+            "link": "https://saqib-aziz33.github.io/starbucks-clone/",
+            "img": "/static/starbucks.png",
+            "lang": ["html", "css", "js"]
+        },
+        {
+            "title": "Wultra Clone",
+            "desc": "Wultra homepage clone with html, css and javascript",
+            "link": "https://saqib-aziz33.github.io/wultra-clone/",
+            "img": "/static/wultra.png",
+            "lang": ["html", "css", "js"]
+        }
+    ]
+}

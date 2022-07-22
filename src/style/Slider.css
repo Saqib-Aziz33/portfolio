@@ -1,0 +1,26 @@
+.custom-slider{
+    height: 200px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.custom-slider > div{
+    display: flex;
+    animation: imgAnimation 15s infinite linear alternate;
+}
+@keyframes imgAnimation{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+
+.custom-slider img{
+    height: 100px;
+    width: auto;
+    margin: 0 20px;
+}

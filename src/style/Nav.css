@@ -1,0 +1,63 @@
+:root{
+    --nav-transition: all 0.5s ease-in;
+}
+
+#toggleable-nav{
+    width: 100vw;
+    background-color: transparent;
+    position: fixed;
+    visibility: hidden;
+    top: 60vh;
+    transition: var(--nav-transition);
+    bottom: 0;
+    right: 0;
+    height: 0;
+    z-index: 5;
+}
+
+#toggleable-nav.active{
+    height: auto;
+    visibility: visible;
+    top: 0;
+    background-color: var(--clr-light);
+}
+
+
+.close-btn{
+    position:absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+
+.content{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--nav-transition);
+    opacity: 0;
+}
+#toggleable-nav.active .content{
+    opacity: 1;
+}
+.content ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.content ul li{
+    padding: 1rem;
+}
+.content a{
+    color: var(--clr-dark-5);
+    transition: var(--nav-transition);
+}
+.content ul li a:hover{
+    color: var(--clr-dark);
+}
+.content  a.active{
+    color: var(--clr-dark);
+    border-bottom: 1px solid tomato;
+}

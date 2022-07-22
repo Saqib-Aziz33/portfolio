@@ -25,42 +25,56 @@
             "desc": "Mi Store Clone with React.js, React bootstrap and custom css",
             "link": "https://focused-goldberg-0e3b83.netlify.app/",
             "img": "/static/miclone.png",
-            "lang": ["react"]
+            "lang": ["react"],
+            "type": "frontend"
         },
         {
             "title": "Github Finder",
             "desc": "Github finder project consuming github REST API, Search github users and visit their profile and repositories",
             "link": "https://github-finder-five-phi.vercel.app/",
             "img": "/static/githubfinder.png",
-            "lang": ["react"]
+            "lang": ["react"],
+            "type": "frontend"
         },
         {
             "title": "Yelp Camp",
             "desc": "Full stack node.js project with express.js framework and mongodb database, user authentication, authorization, data relationship and CRUD operations, Basic security password hashing etc.",
             "link": "https://cryptic-refuge-94594.herokuapp.com/",
             "img": "/static/yelpcamp.png",
-            "lang": ["html", "css", "js", "node", "express", "mongodb"]
+            "lang": ["html", "css", "js", "node", "express", "mongodb"],
+            "type": "backend"
         },
         {
             "title": "Billing application",
             "desc": "Full stack node.js project with express.js and mongodb database, having two roles admin and employee. Admin can manage products and create employees while employee can only create a bill, Application also includes password hashing, user authentication and authorization and basic security.",
             "link": "https://saqib-billing-app.herokuapp.com/",
             "img": "/static/billing.png",
-            "lang": ["html", "css", "js", "node", "express", "mongodb"]
+            "lang": ["html", "css", "js", "node", "express", "mongodb"],
+            "type": "backend"
+        },
+        {
+            "title": "Social Media API",
+            "desc": "Backend web API includes user signup/signin, follow/unfollow user and create, delete, like, comment user posts.",
+            "link": "https://github.com/Saqib-Aziz33/social-medai-api",
+            "img": "/static/api.png",
+            "lang": ["node", "express", "mongodb"],
+            "type": "backend"
         },
         {
             "title": "Starbucks Clone",
             "desc": "Starbucks Coffee shop homepage clone with html, css and javascript",
             "link": "https://saqib-aziz33.github.io/starbucks-clone/",
             "img": "/static/starbucks.png",
-            "lang": ["html", "css", "js"]
+            "lang": ["html", "css", "js"],
+            "type": "frontend"
         },
         {
             "title": "Wultra Clone",
             "desc": "Wultra homepage clone with html, css and javascript",
             "link": "https://saqib-aziz33.github.io/wultra-clone/",
             "img": "/static/wultra.png",
-            "lang": ["html", "css", "js"]
+            "lang": ["html", "css", "js"],
+            "type": "frontend"
         }
     ]
 }
